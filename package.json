@@ -1,6 +1,6 @@
 {
   "name": "ts-template",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Boilerplate repo for node/typescript projects, with jest testing and winston logging.",
   "main": "index.js",
   "scripts": {
