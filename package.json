@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest --config=jest.config.ts",
     "start": "npx ts-node src/index.ts",
-    "compile": "npx tsc"
+    "compile": "npx tsc --build --verbose"
   },
   "keywords": [],
   "author": "Ben West",
