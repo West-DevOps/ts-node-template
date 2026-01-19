@@ -15,7 +15,7 @@ jobs:
     needs: install
     steps:
     - uses: actions/checkout@v4
-    - name: Test
+    - name: Install
       run: npm --no-fund ci
   test:
     runs-on: ubuntu-latest
