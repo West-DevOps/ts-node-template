@@ -2,10 +2,14 @@
   "name": "ts-template",
   "version": "0.1.0",
   "description": "Boilerplate repo for node/typescript projects, with jest testing and winston logging.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=25.2.1"
+  },
   "scripts": {
     "test": "jest --config=jest.config.ts",
     "start": "npx ts-node src/index.ts",
+    "compile": "npx tsc",
     "check-for-updates": "npx ncu"
   },
   "keywords": [],
